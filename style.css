@@ -221,6 +221,7 @@ main{
 }
 .info-container table{
     margin-bottom: 50px;
+    border-collapse: collapse;
 }
 .info-container table td{
     font-style: normal;
