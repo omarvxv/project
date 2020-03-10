@@ -1,0 +1,193 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    font-family: Roboto, sans-serif;
+}
+.coin-screen{
+    min-height: 720px;
+    max-width: 1280px;
+    background-color: rgb(212, 212, 212);
+}
+.container{
+    /* блок для выравнивания контента*/
+    margin-left: 9.6875%;
+    margin-right: 4.0625%;
+}
+header{
+    width: 96.82971014492754%;
+    height: 71px;
+    padding-top: 39px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+main{
+    /* контент */
+    max-width: 1104px;
+    min-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    /* продукт */
+    width: 47.82608695652174%;
+    min-width: 500px;
+    height: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+article .image{
+    /* блок с фотографией */
+    height: 120px;
+    width: 126px;
+    overflow: hidden;
+    align-content: center;
+    position: relative;
+}
+article .image img{
+    margin-top: -26px;
+    margin-left: -22px;
+    width: 172px;
+    height: 172px;
+}
+article .image .discountBlock{
+    /* блок для размещения процента скидки */
+    position: absolute;
+    top: 0;
+    left: 82px;
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    background: #833AE0;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+article .image .discountBlock .discount{
+    padding-left: 1px;
+    padding-top: 13px;
+}
+.infoBlock{
+    /* блок с информацией */
+    width: 360px;
+    height: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.infoBlock .mainInfo{
+    /* основная информация */
+    width: 221.51px;
+    font-size: 13px;
+}
+.infoBlock .name{
+    /* Название монеты */
+    color: #833AE0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+.mainInfo p{
+    /* текст */
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.price{
+    /* блок с ценой */
+    width: 96px;
+    line-height: 123.4%;
+}
+.price .beforeDiscount{
+    /* цена до скидки */
+    color: gray;
+    font-size: 12px;
+}
+.price .afterDiscount{
+    /* цена после скидки */
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.container-info{
+    margin-top: 24px;
+    margin-left: 12.8125%;
+    margin-right: 15.3125%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.container-info .photo{
+    width: 50%;
+}
+.container-info .info{
+    background: rgba(196, 196, 196, 0.5);
+    width: 50%;
+}
+.info .info-container{
+    margin-left: 10.30701754385965%;
+    margin-top: 12px;
+    margin-right: 44px;
+    display: flex;
+    flex-direction: column;
+}
+.info-container .header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+}
