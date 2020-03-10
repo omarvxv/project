@@ -144,7 +144,7 @@ main{
     text-decoration: none;
     color: #833AE0;
 }
-.mainInfo p{
+.mainInfo li{
     /* текст */
     font-family: Roboto;
     font-style: normal;
