@@ -1,47 +1,4 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-*{
+body{
     font-family: Roboto, sans-serif;
 }
 .coin-screen{
@@ -76,7 +33,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-article{
+.coinBlock{
     /* продукт */
     width: 47.82608695652174%;
     min-width: 500px;
@@ -86,24 +43,24 @@ article{
     justify-content: space-between;
     margin-bottom: 24px;
 }
-article .image{
+.coinBlock .image{
     /* блок с фотографией */
-    height: 120px;
+    height: 125px;
     width: 126px;
     overflow: hidden;
     align-content: center;
     position: relative;
 }
-article .image img{
-    margin-top: -26px;
+.coinBlock .image img{
+    margin-top: -24px;
     margin-left: -22px;
     width: 172px;
     height: 172px;
 }
-article .image .discountBlock{
+.coinBlock .image .discountBlock{
     /* блок для размещения процента скидки */
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 82px;
     border-radius: 100%;
     width: 44px;
@@ -116,7 +73,7 @@ article .image .discountBlock{
     font-size: 15px;
     line-height: 18px;
 }
-article .image .discountBlock .discount{
+.coinBlock .image .discountBlock .discount{
     padding-left: 1px;
     padding-top: 13px;
 }
